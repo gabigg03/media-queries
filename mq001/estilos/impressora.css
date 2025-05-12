@@ -1,0 +1,28 @@
+/* estilos para impressora */
+ 
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    line-height: 1.1em;
+    text-align: justify;
+}
+h2{
+    text-align: left;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+    /* usado para não aparecer */
+}
+article{
+    width: 100%;
+}
+article::after{
+    content: 'Esse artigo foi impresso através do site www.NotíciasPOP.com';
+    font-weight: bolder;
+}

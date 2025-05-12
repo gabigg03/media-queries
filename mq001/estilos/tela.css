@@ -1,0 +1,53 @@
+/* estilos para telas */
+@font-face {
+    font-family:'tro' ;
+    src: url('../fonts/TROGLOP_.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ html{
+    font-family: Arial, Helvetica, sans-serif
+ }
+ h1{
+    font-family: 'tro';
+    font-size: 2.5em;
+    text-align: center;
+    padding: 20px;
+ }
+ header{
+    background-color: lightpink;
+ }
+ menu ul{
+    list-style-type: none;
+    background-color: rgb(224, 166, 176);
+    padding: 10px;
+ }
+ menu li{
+    background-color: rgb(167, 127, 133);
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    border-radius: 15px;
+ }
+ menu li:hover{
+    background-color: white;
+    color: pink;
+ }
+ article{
+    width: 550px;
+    text-align: justify;
+    margin: auto;
+    display: block;
+ }
+ article h2{
+    text-align: left;
+    padding: 20px;
+ }
+ article p{
+    padding: 10px;
+    line-height: 1.3em;
+    text-indent: 10px;
+ }
