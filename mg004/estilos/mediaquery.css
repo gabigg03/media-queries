@@ -59,7 +59,16 @@
    img#impre{display: none;}
    img#pc{display: none;}
    img#tv{display: none;}
+   
+   h1{
+      font-size: 1.5em;
+   }
+   main{
+      width: 400px;
+   }
 }
+
+
 /* pc */
 @media screen and (min-width: 992px) and (max-width:1200px) {
     body{
@@ -73,7 +82,13 @@
       img#impre{display: none;}
       img#pc{display: block;}
       img#tv{display: none;}
-}
+     h1{
+      font-size: 2em;
+      }
+      main{
+      width: 500px;
+      }
+   }
 /* tv */
 @media screen and (min-width: 1200px) {
     body{
@@ -87,4 +102,12 @@
    img#impre{display: none;}
    img#pc{display: none;}
    img#tv{display: block;}
+
+   h1{
+      font-size: 2.5em;
+
+   }
+   main{
+      width: 600px;
+   }
 }
