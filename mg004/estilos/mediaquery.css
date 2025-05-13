@@ -26,10 +26,10 @@
  */
 @media print {
    body{
-      /* background: url(../imagens/back-print.jpg);
+       background: url(../imagens/back-print.jpg);
       background-position: center center;
       background-size: cover;
-      isso é desnecessário */
+      /*isso é desnecessário */
       
    }
    h1{
